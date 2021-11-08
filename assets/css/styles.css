@@ -1,0 +1,32 @@
+body {
+    background-color: #090a16;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+#menu ul li.btn{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+#menu ul li.btn a {
+    text-decoration: none;
+    padding: 5px;
+    color: green;
+    font-size: 18px
+}
+
+#menu ul li.btn:hover a{
+    color: black;
+    background-color: coral;
+    transition: 0.6s all;
+}
